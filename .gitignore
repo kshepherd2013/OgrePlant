@@ -3,6 +3,7 @@
 *.lo
 *.o
 *.obj
+*.d
 
 # Precompiled Headers
 *.gch
@@ -26,3 +27,15 @@
 *.exe
 *.out
 *.app
+
+# ignore all bin directories
+bin/
+obj/
+
+# ignore all backup files
+*~
+*.bak
+*.orig
+
+# Local configuration file
+.directory
